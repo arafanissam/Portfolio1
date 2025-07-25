@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arafa N | Frontend Developer</title>
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('https://uploads.onecompiler.io/43ne9x4k6/43ne9xquk/1000059827.jpg') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .intro {
+      position: relative;
+      z-index: 2;
+      color: #fff;
+    }
+
+    .intro h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+      color: #00ffff;
+    }
+
+    .intro p {
+      font-size: 1.3rem;
+      color: #e0ffff;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      color: #003b5b;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #00aaff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #444;
+    }
+
+    ul.skills {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    ul.skills li {
+      background-color: #007acc;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    ul.skills li:hover {
+      background-color: #005f99;
+      transform: scale(1.05);
+    }
+
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 25px;
+    }
+
+    .gallery img {
+      width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      transition: 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.06);
+    }
+
+    .contact a {
+      color: #005f99;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+      color: #004066;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e9f4f8;
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .intro h1 {
+        font-size: 2.5rem;
+      }
+
+      .intro p {
+        font-size: 1rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="intro" data-aos="fade-up">
+      <h1>Arafa N</h1>
+      <p>Frontend Developer | C & Java Programmer | Student Leader</p>
+    </div>
+  </header>
+
+  <section data-aos="fade-right">
+    <h2>👩‍💻 About Me</h2>
+    <p>Hi! I’m <strong>Arafa N</strong>, a passionate Computer Science student at the College of Engineering, Karunagappally. I love designing responsive websites using HTML and CSS. I also work with C and Java, and I’m skilled at problem-solving and collaboration.</p>
+    <p>I currently serve as the <strong>Vice Chair of IEEE PES SBC CEK</strong> and a <strong>PES Day Ambassador</strong>. I'm actively involved in leadership, event organizing, and I find joy in music and personal growth.</p>
+    <p>📍 <strong>Kollam, Kerala</strong><br>🎓 Alumna of <strong>TKM Higher Secondary School</strong></p>
+  </section>
+
+  <section data-aos="fade-left">
+    <h2>⚙️ Skills</h2>
+    <ul class="skills">
+      <li data-aos="zoom-in">HTML5</li>
+      <li data-aos="zoom-in" data-aos-delay="100">CSS3</li>
+      <li data-aos="zoom-in" data-aos-delay="200">C Programming</li>
+      <li data-aos="zoom-in" data-aos-delay="300">Java</li>
+      <li data-aos="zoom-in" data-aos-delay="400">GitHub</li>
+      <li data-aos="zoom-in" data-aos-delay="500">VS Code</li>
+      <li data-aos="zoom-in" data-aos-delay="600">Leadership</li>
+      <li data-aos="zoom-in" data-aos-delay="700">Public Speaking</li>
+      <li data-aos="zoom-in" data-aos-delay="800">Volunteering</li>
+    </ul>
+  </section>
+
+  <section data-aos="fade-up">
+    <h2>📸 Gallery</h2>
+    <div class="gallery">
+      <img src="https://uploads.onecompiler.io/43ne9x4k6/43nh933gc/1000006686.jpg" alt="Arafa Photo 1" data-aos="flip-left">
+      <img src="https://uploads.onecompiler.io/43ne9x4k6/43nh933gc/1000051095.webp" alt="Arafa Photo 2" data-aos="flip-right">
+      <img src="https://uploads.onecompiler.io/43ne9x4k6/43ne9xquk/1000059827.jpg" alt="Arafa Hero Photo" data-aos="zoom-in-up">
+    </div>
+  </section>
+
+  <section data-aos="fade-right">
+    <h2>📬 Contact & Portfolio</h2>
+    <div class="contact">
+      <p>📧 <a href="mailto:dineeranissam123@gmail.com">dineeranissam123@gmail.com</a></p>
+      <p>📞 <a href="tel:+918921341825">+91 8921341825</a></p>
+      <p>📸 <a href="https://www.instagram.com/__arafa__nissam" target="_blank">@__arafa__nissam</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/arafa-n-ab7505332" target="_blank">LinkedIn: Arafa N</a></p>
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    © 2025 Arafa N | Built with 💼 HTML, CSS & Java | Clean & Professional Portfolio
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
